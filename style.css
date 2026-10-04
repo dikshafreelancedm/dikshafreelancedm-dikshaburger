@@ -1,0 +1,188 @@
+*{
+    padding: 0px ;
+    margin:0px;
+    box-sizing: border-box;
+}
+.header-navebr{
+    background-color: aliceblue;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: fixed;
+
+}
+
+.logo{
+    
+    width: 30%;
+    height: 50px;
+    
+    
+}
+
+.menu{
+    
+    width: 70%;
+    height: 50px;
+}
+
+ul{
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    padding-left: 550px;
+    padding-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+    padding-left: 30px;
+    
+
+}
+
+.s{
+    background-color: aliceblue;
+    width: 100%;
+    height: 500px;
+    display: flex;
+  
+    background-image: url(../img/hamburger.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.s1{
+    
+    width: 20%;
+    height: 60px;
+    margin-top: 400px;
+    margin-left: 20px;
+}
+
+h2{
+    padding-top: 10px;
+    padding-left: 60px;
+}
+
+
+.d{
+    background-color: white;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d1{
+    
+    width: 50%;
+    height: 600px;
+    background-image: url(../img/tablesetting2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 360px;
+
+}
+
+.d2{
+    
+    width: 50%;
+    height: 600px;
+}
+
+.p1{
+    padding-left: 230px;
+    font-size: 50px;
+    padding-top: 30px;
+    
+}
+.p2{
+    padding-left: 250px;
+    font-size: 20px;
+    padding-top: 50px;
+    font-style: italic;
+    
+}
+.p3{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.p4{
+    
+    padding-left: 20px;
+    padding-top: 60px;
+}
+
+.f{
+   background-color: white;
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.f1{
+    
+    width: 50%;
+    height: 600px;
+}
+.f2{
+    
+    width: 50%;
+    height: 600px;
+    background-image: url(../img/tablesetting.jpg\ img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 340px;
+}
+
+h3{
+    padding-left: 120px;
+    padding-top: 30px;
+    
+}
+p{
+    padding-left: 60px;
+}
+
+.footer{
+    background-color: white;
+    width: 100%;
+    height: 600px;
+}
+
+.t{
+    font-size: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.t1{
+    padding-right: 50px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: blue;
+
+    
+}
+
+input{
+    width: 90%;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 1px solid lightgray;
+}
+
+button{
+    margin-left: 40px;
+    margin-top: 10px;
+}
